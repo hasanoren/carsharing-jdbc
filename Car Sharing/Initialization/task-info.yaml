@@ -1,0 +1,24 @@
+type: edu
+files:
+  - name: src/carsharing/Main.java
+    visible: true
+    learner_created: false
+  - name: test/CarSharingTest.java
+    visible: false
+    learner_created: false
+  - name: test/DatabaseUtil.java
+    visible: false
+    learner_created: false
+  - name: src/carsharing/db/carsharing.mv.db
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/carsharing/DatabaseManager.java
+    visible: true
+    learner_created: true
+feedback_link: https://hyperskill.org/learn/step/11501#comment
+status: Solved
+feedback:
+  message: Congratulations!
+  time: "Sat, 23 Nov 2024 10:00:38 UTC"
+record: 1

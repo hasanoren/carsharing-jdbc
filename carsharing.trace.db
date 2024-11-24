@@ -1,0 +1,107 @@
+2024-11-23 22:21:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The result set is not scrollable and can not be reset. You may need to use conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ..). [90128-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:505)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.jdbc.JdbcResultSet.resetResult(JdbcResultSet.java:3301)
+	at org.h2.jdbc.JdbcResultSet.absolute(JdbcResultSet.java:2862)
+	at carsharing.Main.rentCar(Main.java:279)
+	at carsharing.Main.customerMenu(Main.java:226)
+	at carsharing.Main.customerLogin(Main.java:159)
+	at carsharing.Main.mainMenu(Main.java:45)
+	at carsharing.Main.main(Main.java:31)
+2024-11-23 22:22:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The result set is not scrollable and can not be reset. You may need to use conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ..). [90128-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:505)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.jdbc.JdbcResultSet.resetResult(JdbcResultSet.java:3301)
+	at org.h2.jdbc.JdbcResultSet.absolute(JdbcResultSet.java:2862)
+	at carsharing.Main.rentCar(Main.java:279)
+	at carsharing.Main.customerMenu(Main.java:226)
+	at carsharing.Main.customerLogin(Main.java:159)
+	at carsharing.Main.mainMenu(Main.java:45)
+	at carsharing.Main.main(Main.java:31)
+2024-11-23 22:22:44 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The result set is not scrollable and can not be reset. You may need to use conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ..). [90128-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:505)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.jdbc.JdbcResultSet.resetResult(JdbcResultSet.java:3301)
+	at org.h2.jdbc.JdbcResultSet.absolute(JdbcResultSet.java:2862)
+	at carsharing.Main.rentCar(Main.java:279)
+	at carsharing.Main.customerMenu(Main.java:226)
+	at carsharing.Main.customerLogin(Main.java:159)
+	at carsharing.Main.mainMenu(Main.java:45)
+	at carsharing.Main.main(Main.java:31)
+2024-11-23 22:24:35 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "RENTED_CARS" not found; SQL statement:
+SELECT * FROM RENTED_CARS WHERE CUSTOMER_ID = ? [42102-200]
+2024-11-23 22:31:16 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "RENTED_CARS" not found; SQL statement:
+SELECT * FROM RENTED_CARS WHERE CUSTOMER_ID = ? [42102-200]
+2024-11-23 22:33:38 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The result set is not scrollable and can not be reset. You may need to use conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ..). [90128-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:505)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.jdbc.JdbcResultSet.resetResult(JdbcResultSet.java:3301)
+	at org.h2.jdbc.JdbcResultSet.beforeFirst(JdbcResultSet.java:2772)
+	at carsharing.Main.rentCar(Main.java:309)
+	at carsharing.Main.customerMenu(Main.java:226)
+	at carsharing.Main.customerLogin(Main.java:159)
+	at carsharing.Main.mainMenu(Main.java:45)
+	at carsharing.Main.main(Main.java:31)
+2024-11-23 22:36:46 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The result set is not scrollable and can not be reset. You may need to use conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ..). [90128-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:505)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.jdbc.JdbcResultSet.resetResult(JdbcResultSet.java:3301)
+	at org.h2.jdbc.JdbcResultSet.beforeFirst(JdbcResultSet.java:2772)
+	at carsharing.Main.rentCar(Main.java:280)
+	at carsharing.Main.customerMenu(Main.java:226)
+	at carsharing.Main.customerLogin(Main.java:159)
+	at carsharing.Main.mainMenu(Main.java:45)
+	at carsharing.Main.main(Main.java:31)
+2024-11-23 22:40:15 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The result set is not scrollable and can not be reset. You may need to use conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ..). [90128-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:505)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.jdbc.JdbcResultSet.resetResult(JdbcResultSet.java:3301)
+	at org.h2.jdbc.JdbcResultSet.beforeFirst(JdbcResultSet.java:2772)
+	at carsharing.Main.rentCar(Main.java:280)
+	at carsharing.Main.customerMenu(Main.java:226)
+	at carsharing.Main.customerLogin(Main.java:159)
+	at carsharing.Main.mainMenu(Main.java:45)
+	at carsharing.Main.main(Main.java:31)
+2024-11-23 22:43:03 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLNonTransientException: The result set is not scrollable and can not be reset. You may need to use conn.createStatement(ResultSet.TYPE_SCROLL_INSENSITIVE, ..). [90128-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:505)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.message.DbException.get(DbException.java:181)
+	at org.h2.message.DbException.get(DbException.java:170)
+	at org.h2.jdbc.JdbcResultSet.resetResult(JdbcResultSet.java:3301)
+	at org.h2.jdbc.JdbcResultSet.beforeFirst(JdbcResultSet.java:2772)
+	at carsharing.Main.rentCar(Main.java:280)
+	at carsharing.Main.customerMenu(Main.java:226)
+	at carsharing.Main.customerLogin(Main.java:159)
+	at carsharing.Main.mainMenu(Main.java:45)
+	at carsharing.Main.main(Main.java:31)
+2024-11-23 22:46:49 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Table "RENTED_CARS" not found; SQL statement:
+SELECT * FROM RENTED_CARS WHERE CUSTOMER_ID = ? [42102-200]
